@@ -33,6 +33,10 @@ body {
     display: flex;
 }
 
+#app-header a {
+    text-decoration: none;
+    color: #000000;
+}
 
 /* #region DebugHeader */
 
@@ -62,14 +66,62 @@ body {
 .container-header_left{
     height: 50px;
     width: 50%;
+    position: relative;
+    
 }
 
+.container-header_left ul{
+    display: flex;
+    list-style: none;
+    align-items: center;
+    margin-right: 1rem;
+
+}
+
+.container-header_left nav{
+    position: absolute;
+    top: 50%;
+    left: 0;
+    transform: translate(0, -50%);
+}
+
+.container-header_left li{
+    margin: 1rem;
+}
 
 
 .container-header_right {
+    display: flex;
     height: 50px;
     width: 50%;
+    justify-content: flex-end;
+    align-items: center;
+    
 }
+
+.container-header_right ul{
+    display: flex;
+    list-style: none;
+    align-items: center;
+    margin-right: 1rem;
+
+}
+
+
+.container-header_right li{
+    margin: 1rem;
+}
+
+.bt_header {
+    background-color: var(--bt-button);
+    padding: 5px;
+    color: var(--db-body);
+    border-radius: 2px;
+    border: none;
+}
+
+
+
 
 /* #endregion Header */
 
