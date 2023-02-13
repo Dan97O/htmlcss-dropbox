@@ -215,8 +215,30 @@ body {
     background-color: #4158b4;
 }
 
+ #app-footer{
+    background-color: var(--db-footer);
+ }
+
+.container-footer{
+    margin: auto;
+    width: 65%;
+    height: 400px;
+    margin-top: 60px;
+}
+
+.column{
+    width: calc(100% / 5);
+    height: 300px;
+    background-color: #0093ce;
+}
 
 
+.language{
+    width: 150px;
+    height: 100px;
+    background-color: #a2d39b;
+    border-top: 1px solid white;
+}
 /* #endregion Main */
 
 
