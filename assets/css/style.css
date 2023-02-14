@@ -417,6 +417,7 @@ body {
     width: calc(95% / 3 );
     height: 200px;
     margin: 20px 0;
+    margin-bottom: 175px;
 }
 
 .company{
