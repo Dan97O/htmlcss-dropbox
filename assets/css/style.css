@@ -370,9 +370,13 @@ body {
     list-style: none;
 }
 
+.partner .container{
+    margin-top: 250px;
+}
 
 .col-img {
     width: 60%;
+    height: 400px;
 }
 
 .img-partner{
@@ -393,7 +397,9 @@ body {
     margin-top: 1rem;
 }
 
-
+.card img{
+    height: 100%;
+}
 
 
 
@@ -409,8 +415,7 @@ body {
 
 .card{
     width: calc(95% / 3 );
-    height: 150px;
-    background-color: #a2d39b;
+    height: 200px;
     margin: 20px 0;
 }
 
