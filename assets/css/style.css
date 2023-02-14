@@ -127,23 +127,18 @@ body {
 
 /* #region Header */
 
-#app-header {
-   position: relative;
-}
 
 .banner-link-header {
     position: fixed;
-    height: 50px;
     width: 100%;
     background-color: var(--db-body);
 }
 
 
 .container-header_left{
-    height: 50px;
-    width: 50%;
-    position: relative;
-    
+    display: flex;
+    align-items: center;
+    width: 50%;   
 }
 
 .container-header_left ul{
@@ -154,12 +149,6 @@ body {
 
 }
 
-.container-header_left nav{
-    position: absolute;
-    top: 50%;
-    left: 0;
-    transform: translate(0, -50%);
-}
 
 .container-header_left li{
     margin: 1rem;
@@ -168,7 +157,6 @@ body {
 
 .container-header_right {
     display: flex;
-    height: 50px;
     width: 50%;
     justify-content: flex-end;
     align-items: center;
@@ -284,7 +272,6 @@ body {
 
 .text_container-middle{
     width: 40%;
-    height: 264px;
     display: inline-block;
 }
 
@@ -420,7 +407,6 @@ body {
 .company{
     width: calc(100% / 12 * 4);
     flex-wrap: wrap;
-    height: 400px;
 }
 
 .square{
@@ -526,7 +512,6 @@ body {
     margin: auto;
     margin-top: 60px;
     width: 100%;
-    height: 400px;
 }
 
 
