@@ -48,7 +48,7 @@ body {
 
 .container {
     margin: auto;
-    margin-top: 60px;
+    margin-top: 100px;
     width: 50%;
 }
 
@@ -213,7 +213,7 @@ body {
 
 .debug .container{
     background-color: gray;
-    height: 400px;
+    height: 900px;
     width: 50%;
 }
 
@@ -401,24 +401,31 @@ body {
     height: 100%;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
 .card{
     width: calc(95% / 3 );
     height: 200px;
     margin: 20px 0;
     margin-bottom: 175px;
 }
+
+.clients .container span{
+    margin-top: 25px;
+}
+
+.link-main{
+    margin-top: 50px;
+}
+
+
+
+
+
+
+
+
+
+
+
 
 .company{
     width: calc(100% / 12 * 4);
