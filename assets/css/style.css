@@ -371,16 +371,41 @@ body {
 }
 
 
-
-
-
 .col-img {
     width: 60%;
 }
 
+.img-partner{
+    height: 100%;
+}
+
 .col-text {
     width: 35%;
+    padding-top: 2rem;
 }
+
+.bt_main-partner{
+    background-color: var(--db-body);
+    padding: 8px;
+    color: black;
+    border-radius: 2px;
+    border: 1px solid black;
+    margin-top: 1rem;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 .card{
     width: calc(95% / 3 );
