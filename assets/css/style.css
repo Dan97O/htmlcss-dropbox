@@ -398,6 +398,12 @@ img{
     list-style: none;
 }
 
+
+.row-partner{
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
 .partner .container{
     margin-top: 250px;
 }
