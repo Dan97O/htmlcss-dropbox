@@ -110,6 +110,7 @@ img{
 .row{
     flex-direction: row;
     flex-wrap: wrap;
+    justify-content: space-between;
 }
 
 .col-4 {
@@ -162,6 +163,7 @@ img{
     width: 100%;
     background-color: var(--db-body);
     box-shadow: 0 0 5px lightgray;
+    z-index: 500;
 }
 
 
@@ -278,7 +280,7 @@ img{
 .container-middle h1{
     text-align: center;
     width: 100%;
-    font-size: 50px;
+    font-size: 65px;
 }
 
 .title{
@@ -355,6 +357,11 @@ img{
 
 .buy-now a{
     text-decoration: none;
+}
+
+.buy-now ul{
+    text-decoration: none;
+    list-style: none;
 }
 
 .buy-now{
