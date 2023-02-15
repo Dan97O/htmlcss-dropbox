@@ -25,7 +25,7 @@ body {
    --db-main-bottom-text: #61082b;
    --db-main-bottom: #b4d0e7;
    --db-footer: #000000;
-}
+} 
 
 /* #region Utilities */
 
@@ -55,6 +55,10 @@ img{
 
 .mt-2{
     margin-top: 2rem;
+}
+
+.mt-3{
+    margin-top: 3rem;
 }
 
 .container {
@@ -110,7 +114,6 @@ img{
 .row{
     flex-direction: row;
     flex-wrap: wrap;
-    justify-content: space-between;
 }
 
 .col-4 {
@@ -308,7 +311,7 @@ img{
 }
 
 .text_container-middle p{
-    margin-top: 25px;
+    margin-top: 30px;
 }
 
 .arrow_down:hover{
@@ -317,8 +320,9 @@ img{
 
 .img_container-middle {
     width: 59%;
-    height: 200px;
+    /* height: 200px; */
     display: inline-block;
+    margin-bottom: -5rem;
 }
 
 .billing ul {
@@ -333,7 +337,8 @@ img{
 }
 
 #plans{
-    margin-top: 5rem;
+    margin-top: 8rem;
+    margin-bottom: 20rem;
 }
 
 .users{
@@ -422,6 +427,10 @@ img{
 
 .bt_main-partner:hover{
     background-color: lightgray;
+}
+
+.cards{
+    margin-top: 10rem;
 }
 
 .card img{
@@ -597,6 +606,10 @@ img{
     background-color: var(--bt-button);
     color: var(--db-body);
     transition: 3s;
+}
+
+.faq{
+    margin-bottom: 8rem;
 }
 
 .faq-title{
