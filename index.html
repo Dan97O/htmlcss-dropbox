@@ -20,7 +20,7 @@
                 <div class="container-header_left">
                     <nav>
                         <ul>
-                            <li><img src="./assets/img/logo-small.png" alt="Logo"></li>
+                            <li><a href="/"><img src="./assets/img/logo-small.png" alt="Logo"></a></li>
                             <li><a href="#">Perchè DropBox</a></li>
                             <li><a href="#">Funzioni</a></li>
                             <li><a href="#">Piani e Prezzi</a></li>
@@ -31,10 +31,13 @@
                 <div class="container-header_right">
                     <nav>
                         <ul>
-                            <li> <a href="#">Supporto</a> </li>
+                            <li><a href="#">Supporto</a></li>
                             <li><a href="#">Contatta l'ufficio vendite</a></li>
                             <li><a href="#">Accedi</a></li>
-                            <li><button class="bt_header">Inizia</button></li>
+                            <li><a class="bt_header" href="/"> <span class="white">Inizia</span> </a></li>
+                        </ul>
+                        <ul>
+                            
                         </ul>
                     </nav>
                 </div>
@@ -74,12 +77,13 @@
                                 integrato per ottimizzare il
                                 flusso di lavoro esistente. 
                             </span>
-                            <div>
-                                <button class="bt_free-test">Inizia la tua prova gratuita</button>
+                            <div class="mt-2">
+                                <a class="bt_free-test" href="/">Inizia la tua prova gratuita</a>
     
                                 <p>Annulla in qualsiasi momento</p>
-        
-                                <p><i class="fa-solid fa-arrow-down fa-2x mt-2"></i></p>
+
+                                <a href="#plans"><i class="fa-solid fa-arrow-down fa-2x mt-2 black"></i></a>
+                                    
                             </div>
                         </div>
                    
@@ -99,7 +103,7 @@
         <!-- /main top -->
 
         
-        <section class="plans">
+        <section id="plans">
             <div class="container">
                 <div>
                     <h2>Trova il piano Business che fa per te</h2>
@@ -107,10 +111,12 @@
                 <nav class="billing">
                     <ul>
                         <li>
-                            <input class="mr-2px" type="radio" name="Fatturazione mensile" id="">Fatturazione mensile
+                            <input class="mr-2px" type="radio" name="price mensile" id="month">
+                            <span>Fatturazione mensile</span> 
                         </li>
                         <li>
-                            <input class="mr-2px" type="radio" name="Fatturazione annuale" id="">Fatturazione annuale
+                            <input class="mr-2px" type="radio" name="price" id="year">
+                            <span>Fatturazione annuale</span> 
                         </li>
                     </ul>
                 </nav>
@@ -151,10 +157,10 @@
                                     semplice e sicura
                                 </span>
                             </div>
-                            <div class="pt-1">
-                              <button class="bt_main">Prova gratis per 30 giorni</button>
+                            <div class="pt-1 mt-2">
+                              <a class="bt_main" href="/">Prova gratis per 30 giorni</a>
                             </div>
-                            <div class="pt-1">
+                            <div class="mt-2">
                                 <span>
                                    Oppure <a href="#">acquista ora</a>
                                 </span>
@@ -216,10 +222,10 @@
                                     i file del tuo team
                                 </span>
                             </div>
-                            <div class="pt-1">
-                              <button class="bt_main">Prova gratis per 30 giorni</button>
+                            <div class="pt-1 mt-2">
+                              <a class="bt_main" href="/">Prova gratis per 30 giorni</a>
                             </div>
-                            <div class="pt-1">
+                            <div class="mt-2">
                                 <span>
                                    Oppure <a href="#">acquista ora</a>
                                 </span>
@@ -294,10 +300,10 @@
                                     larga scala
                                 </span>
                             </div>
-                            <div class="pt-1">
-                              <button class="bt_main">Contattaci</button>
+                            <div class="pt-1 mt-2">
+                              <a class="bt_main" href="/">Contattaci</a>
                             </div>
-                            <div class="pt-1">
+                            <div class="mt-2">
                                 <span>
                                    Oppure <a href="#">acquista ora</a>
                                 </span>
@@ -336,7 +342,7 @@
                             <div class="">
                                 <div class="progress">
                                     <h2>Enterprice</h2>
-                                    <button class="bt_main">Contatta l'ufficio vendite</button>
+                                    <a class="bt_main" href="/">Contatta l'ufficio vendite</a>
                                 </div>
                             </div>
                             <div class="pl-1 pb-3">
@@ -365,7 +371,7 @@
                     </div>
                     <div class="col-text">
                         <h2>Entra in contatto con un Partner Dropbox</h2>
-                        <p class="pt-1">
+                        <p class="pt-1 pb-3">
                             Trova un partner
                             Dropbox e HelloSign di
                             fiducia. Ottieni le
@@ -377,7 +383,7 @@
                             integrazione, gestione e
                             supporto continui.
                         </p>
-                        <button class="bt_main-partner">Trova un partner</button>
+                        <a href="/" class="bt_main-partner">Trova un partner</a>
                     </div>
                 </div>          
             </div>
@@ -557,7 +563,7 @@
                                 <h2>Porta Dropbox Business nella tua azienda</h2>
                             </div>
                             <div>
-                                <button class="bt-col-text-bottom">Inizia la tua prova gratuita</button>
+                                <a href="" class="bt-col-text-bottom">Inizia la tua prova gratuita</a>
                             </div>
                         </div>
                        

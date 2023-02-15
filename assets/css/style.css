@@ -27,15 +27,22 @@ body {
    --db-footer: #000000;
 }
 
-/* Utilities */
+/* #region Utilities */
 
 .d-flex{
     display: flex;
 }
 
-#app-header a {
-    text-decoration: none;
-    color: #000000;
+img{
+    max-width: 100%;
+}
+
+.black{
+    color: black;
+}
+
+.white{
+    color: var(--db-body);
 }
 
 .pb-3{
@@ -80,6 +87,8 @@ body {
     color: var(--db-body);
     border-radius: 2px;
     border: none;
+    font-size: 13px;
+    text-decoration: none;
 }
 
 .blue{
@@ -102,8 +111,10 @@ body {
 .col-4 {
     width: calc(95% / 12 * 4);
     border: 1px solid lightgray;
-    min-height: 700px;
+    min-height: 100%;
+    padding-bottom: 2rem;
 }
+
 
 .col-12 {
     width: 100%;
@@ -115,6 +126,7 @@ body {
     width: 300px;
 }
 
+/* #endregion Utilities */
 
 /* #region DebugHeader */
 
@@ -130,11 +142,17 @@ body {
 
 /* #region Header */
 
+#app-header a {
+    text-decoration: none;
+    color: #000000;
+}
+
 
 .banner-link-header {
     position: fixed;
     width: 100%;
     background-color: var(--db-body);
+    box-shadow: 0 0 5px lightgray;
 }
 
 
@@ -188,17 +206,7 @@ body {
 }
 
 
-
-
 /* #endregion Header */
-
-
-
-
-
-
-
-
 
 /* #region DebugMain */
 
@@ -251,10 +259,6 @@ body {
 
 /* #endregion DebugMain */
 
-
-
-
-
 /* #region Main */
 
 .main-top {
@@ -278,14 +282,14 @@ body {
     display: inline-block;
 }
 
-
 .bt_free-test{
     margin-top: 25px;
     background-color: var(--bt-button);
-    padding: 7px;
+    padding: 8px;
     color: var(--db-body);
-    border-radius: 2px;
+    border-radius: 8px;
     border: none;
+    text-decoration: none;
 }
 
 .text_container-middle p{
@@ -299,10 +303,6 @@ body {
     display: inline-block;
 }
 
-.jumbo{
-    width: 100%;
-}
-
 .billing ul {
     list-style: none;
     display: flex;
@@ -314,7 +314,7 @@ body {
     padding-right: 1rem;
 }
 
-.plans{
+#plans{
     margin-top: 5rem;
 }
 
@@ -335,6 +335,10 @@ body {
 
 .progress .bt_main{
     margin: 18px;
+}
+
+.buy-now a{
+    text-decoration: none;
 }
 
 .buy-now{
@@ -385,6 +389,7 @@ body {
     border-radius: 2px;
     border: 1px solid black;
     margin-top: 1rem;
+    text-decoration: none;
 }
 
 .card img{
@@ -395,17 +400,24 @@ body {
     width: calc(95% / 3 );
     height: 200px;
     margin: 20px 0;
-    margin-bottom: 175px;
+    margin-bottom: 200px;
 }
 
 .clients .container span{
     margin-top: 25px;
 }
 
+.clients{
+    padding: 5rem 0;
+}
+
 .link-main{
     margin-top: 50px;
 }
 
+.link-main a{
+    color: var(--bt-button);
+}
 
 .company{
     width: calc(100% / 12 * 4);
@@ -421,12 +433,10 @@ body {
     color: var(--db-body);
 }
 
-
 .designit{
     height: 20%;
     color: var(--db-body);   
 }
-
 
 .color-designit{
     background-color: var(--db-main-designit);
@@ -510,14 +520,11 @@ body {
     background-color: var(--db-main-clear);
 }
 
-
 .container-max{
     margin: auto;
     margin-top: 60px;
     width: 100%;
 }
-
-
 
 .col-text-bottom > div{
     width: 50%;
@@ -525,13 +532,8 @@ body {
     color: var(--db-main-bottom-text) ;
     display: flex;
     justify-content: space-between;
+    align-items: center;
 }
-
-
-
-
-
-
 
 .col-text-bottom{
     background-color: var(--db-main-bottom);
@@ -542,37 +544,14 @@ body {
     align-items: center;
 }
 
-
-
-
 .bt-col-text-bottom{
     background-color: var(--db-body);
     padding: 8px 30px;
     color: black;
     border-radius: 2px;
     border: none;
+    text-decoration: none;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 .faq-title{
     width: 100%;
@@ -591,30 +570,13 @@ body {
     justify-content: space-between;
 }
 
-
 .faq a{
     color: #000000;
 }
 
+/* #endregion Main */
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+/* #region Footer */
 
  #app-footer{
     background-color: var(--db-footer);
@@ -668,7 +630,7 @@ body {
 
 
 
-/* #endregion Main */
+/* #endregion Footer */
 
 
 
